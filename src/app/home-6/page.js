@@ -1,20 +1,17 @@
 import Home6Main from "@/components/layout/main/Home6Main";
 import ThemeController from "@/components/shared/others/ThemeController";
-import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import CustomPageWrapper from "@/components/shared/wrappers/CustomPageWrapper";
+
 export const metadata = {
-  title: "Home 6 | Bastun- Business Consulting Next Js Template",
-  description: "Home 6 | Bastun- Business Consulting Next Js Template",
+  title: "Insurance Services | Business Insurance Solutions",
+  description: "Professional insurance services and solutions for your business needs",
 };
+
 export default function Home6() {
   return (
-    <PageWrapper
-      headerStyle={3}
-      footerStyle={3}
-      headerBg={"black"}
-      footerBg={"black"}
-    >
+    <CustomPageWrapper>
       <ThemeController />
       <Home6Main />
-    </PageWrapper>
+    </CustomPageWrapper>
   );
 }

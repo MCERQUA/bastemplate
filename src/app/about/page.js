@@ -1,21 +1,17 @@
 import AboutMain from "@/components/layout/main/AboutMain";
-import Home2Main from "@/components/layout/main/Home2Main";
 import ThemeController from "@/components/shared/others/ThemeController";
-import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import CustomPageWrapper from "@/components/shared/wrappers/CustomPageWrapper";
+
 export const metadata = {
-  title: "About | Bastun- Business Consulting Next Js Template",
-  description: "About | Bastun- Business Consulting Next Js Template",
+  title: "About Us | Professional Insurance Agency",
+  description: "Learn about our insurance agency's history, values, and commitment to protecting what matters most to you",
 };
+
 export default function About() {
   return (
-    <PageWrapper
-      headerStyle={3}
-      footerStyle={3}
-      headerBg={"black"}
-      footerBg={"black"}
-    >
+    <CustomPageWrapper>
       <ThemeController />
       <AboutMain />
-    </PageWrapper>
+    </CustomPageWrapper>
   );
 }

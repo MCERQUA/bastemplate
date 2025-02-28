@@ -1,20 +1,17 @@
 import BlogsMain from "@/components/layout/main/BlogsMain";
 import ThemeController from "@/components/shared/others/ThemeController";
-import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import CustomPageWrapper from "@/components/shared/wrappers/CustomPageWrapper";
+
 export const metadata = {
-  title: "Blogs | Bastun- Business Consulting Next Js Template",
-  description: "Blogs | Bastun- Business Consulting Next Js Template",
+  title: "Insurance Blog | Industry News & Tips",
+  description: "Stay informed with the latest insurance industry news, coverage tips, and risk management strategies",
 };
+
 export default function Blogs() {
   return (
-    <PageWrapper
-      headerStyle={3}
-      footerStyle={3}
-      headerBg={"black"}
-      footerBg={"black"}
-    >
+    <CustomPageWrapper>
       <ThemeController />
       <BlogsMain />
-    </PageWrapper>
+    </CustomPageWrapper>
   );
 }

@@ -1,0 +1,88 @@
+# Cline AI Assistant Rules and Context
+
+## Project Context
+This is an insurance website built using the Bastun template, specifically using the insurance-focused home-6 layout. The project has been customized to remove e-commerce functionality and focus solely on insurance services.
+
+## Key Modifications Made
+1. Created custom components for:
+   - Page wrapper (CustomPageWrapper)
+   - Header components (CustomHeader, CustomHeaderLarge)
+   - Navigation (CustomNavbar, CustomMobileMenu)
+   - Header actions (CustomHeaderRight)
+
+2. Removed components and features:
+   - E-commerce functionality
+   - Shopping cart
+   - Product pages
+   - Checkout process
+   - Wishlist
+   - Login system
+
+3. Navigation structure:
+   - Home (/home-6)
+   - Services (/services/1)
+   - About (/about)
+   - FAQ (/faq)
+   - Blog (/blogs)
+   - Contact (/contact)
+
+## Rules for AI Assistant
+
+### General Guidelines
+1. Always maintain the insurance focus of the website
+2. Preserve the black theme throughout any modifications
+3. Keep the navigation structure simple and focused
+4. Maintain the "Get Quote" call-to-action prominence
+
+### Component Modifications
+1. Use CustomPageWrapper for any new pages
+2. Follow the "Custom" prefix naming convention for new components
+3. Maintain separation from template components
+4. Keep e-commerce features removed
+
+### Styling Rules
+1. Use the existing black theme
+2. Maintain consistent spacing and layout
+3. Follow the template's responsive design patterns
+4. Use existing CSS classes where possible
+
+### Content Guidelines
+1. Focus on insurance-related terminology
+2. Maintain professional tone
+3. Emphasize service offerings
+4. Keep SEO metadata insurance-focused
+
+### Development Workflow
+1. Always ask user to confirm task completion before:
+   - Updating any documentation in /docs
+   - Adding costs to api-expense.md
+   - Making final commits
+2. Document any new components in project-overview.md
+3. Update file-structure.md for new files
+4. Test all navigation paths after changes
+5. Verify mobile responsiveness
+6. Track API costs and task expenses in api-expense.md
+
+### File Organization
+1. Keep custom components in their respective directories
+2. Maintain clear separation from template files
+3. Update documentation for new additions
+4. Follow established naming conventions
+
+## Important Paths and Files
+1. Custom Components: src/components/layout/header/
+2. Page Wrapper: src/components/shared/wrappers/
+3. Documentation: /docs/
+4. Main Pages: src/app/
+
+## Notes for Future Development
+1. Any new features should align with insurance services
+2. Maintain the simplified navigation structure
+3. Keep the focus on lead generation through "Get Quote"
+4. Document all significant changes
+5. Test across all pages after modifications
+
+## Template Reference
+Original template: Bastun Business Consulting Template
+Selected layout: Insurance Homepage (home-6)
+Theme: Black variation
